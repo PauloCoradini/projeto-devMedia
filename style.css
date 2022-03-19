@@ -1,0 +1,51 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.img-busca {
+    width: 30px;
+    position: absolute;
+    top: 20px; right: 20px; 
+}
+.img-logo {
+    width: 30px;
+    filter: invert(39%) sepia(31%) saturate(6173%) hue-rotate(340deg) brightness(97%) contrast(98%);
+}
+.cabecalho {
+    margin: 20px 20px 20px 20px;
+}
+h1 {
+    position: absolute;
+    top: 25px; left: 70px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #f44336;
+}
+.img-londres {
+    width: 100%;
+}
+.topo {
+    width: 930px;
+    margin: 0 auto;   
+}
+.busca-topo {
+    position: absolute;
+    top: 300px;
+}
+.b1, .b2, .b3 {
+    display: inline-block;
+    width: 310px;
+    height: 2em;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+.b1:hover, .b1:active, .b2:hover, .b2:active, .b3:hover, .b3:active {
+    background: #f44336;
+}
+.flight, .hotel, .rental{
+    margin: 0 10px 0 0;
+    width: 15px;
+    filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(168deg) brightness(107%) contrast(100%);
+}
