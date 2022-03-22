@@ -14,19 +14,38 @@
 </head>
 
 <body>
-    <header>        
-        <section class="cabecalho">        
+    <header>      
+
+        <section class="cabecalho">   
+
             <img src="icons/map-marker-alt-solid.svg" alt="Logo" class="img-logo">
             <a href="index.html"><img src="icons/search-solid.svg" alt="Busca" class="img-busca"></a>   
-        <h1>Logo</h1>
+            <h1>Logo</h1>
+
         </section>   
+
         <img src="imagens/london.jpg" alt="Londres" class="img-londres">
+
         <section class="topo">
-            
+
             <div class="busca-topo">
-                <div class="b1"><img src="icons/plane-solid.svg" alt="Avião" class="flight">Flight</div>
-                <div class="b2"><img src="icons/bed-solid.svg" alt="Cama" class="hotel">Hotel</div>
-                <div class="b3"><img src="icons/car-solid.svg" alt="Carro" class="rental">Rental</div>
+                <div><img src="icons/plane-solid.svg" alt="Avião" class="icone-topo">Flight</div>
+                <div><img src="icons/bed-solid.svg" alt="Cama" class="icone-topo">Hotel</div>
+                <div><img src="icons/car-solid.svg" alt="Carro" class="icone-topo">Rental</div>
+            </div>
+            <div class="busca">
+                <h2>Travel the world with us</h2>
+                <div>
+                    <div>
+                        <label for="origem">From</label>
+                        <input type="text" name="local-origem" id="origem" required placeholder="Departing from" class="input-search">
+                    </div>
+                    <div>
+                        <label for="destino">To</label>
+                        <input type="text" name="local-destino" id="destino" required placeholder="Arriving at" class="input-search">
+                    </div>
+                </div>
+                <input type="submit" name="search" id="search" value="Search and find dates" class="search">
             </div>
 
         </section>
@@ -95,7 +114,16 @@
         </section>
 
         <footer>
-
+            <h2>Find Us On</h2>
+            <div>
+                <a href="http://www.facebook.com.br"><img src="icons/facebook-brands.svg" alt="facebook"><a>
+                <a href="http://www.instagram.com.br"><img src="icons/instagram-brands.svg" alt="instagram"></a>
+                <a href="http://www.snapchat.com.br"><img src="icons/snapchat-brands.svg" alt="snapchat"></a>
+                <a href="http://www.pinterest.com.br"><img src="icons/pinterest-brands.svg" alt="pinterest"></a>
+                <a href="http://www.twitter.com.br"><img src="icons/twitter-brands.svg" alt="twitter"></a>
+                <a href="http://www.linkedin.com.br"><img src="icons/linkedin-brands.svg" alt="linkedin"></a>
+            </div>
+            <p>Powered by Paulo Coradini</p>
         </footer>
     </main>
 </body>
